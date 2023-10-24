@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn" data-modal-target="#modal">Open Modal</button>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Modal</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam dicta, obcaecati rerum totam deserunt sint cum ex quos officia porro iure perspiciatis aliquam omnis excepturi eaque ut esse. Reiciendis possimus voluptatum corrupti beatae iste nesciunt excepturi repellat sunt ad dolorum, necessitatibus aperiam asperiores rem dignissimos ipsum voluptate laboriosam iure doloribus sint ullam repellendus velit ex. Ut, est. Saepe molestiae ipsum veniam in ducimus, deserunt magni at sunt voluptates recusandae illum iste repudiandae beatae. Corrupti esse quia culpa natus hic deleniti exercitationem rem laudantium vel odio.
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+    <form class="form">
+        <input type="text" name="color">
+        <button type="submit">Change</button>
+    </form>
+
+    <div id="app">
+        <input
+          type="text"
+          id="input"
+          placeholder="Enter numbers separ by ':'"
+        />
+        <button type="button" id="average-button">Average</button>
+        <span id="result"></span>
+    <script src="./index.js"></script>
+</body>
+</html>
